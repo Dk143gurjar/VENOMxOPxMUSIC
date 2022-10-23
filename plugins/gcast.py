@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By AdityaPlayer
+# Copyright (C) 2021 By Dkmusic
 
 import asyncio
 from pyrogram import Client, filters
@@ -21,7 +21,7 @@ async def broadcast(_, message: Message):
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
             try:
-                await aditya.send_message(dialog.chat.id, lmao)
+                await Dkmusic.send_message(dialog.chat.id, lmao)
                 sent = sent+1
                 await wtf.edit(f"`Ɓɤøɑɗƈɑstɩŋʛ` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} chats")
                 await asyncio.sleep(3)
