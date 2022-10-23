@@ -1,4 +1,4 @@
-# VENOMxCRAZY // @VENOMxCRAZY
+# DK MUSIC // @DK143GURJARA
 
 import os
 import aiofiles
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: DK MUSIC  (@DK_MUSIC_SHAYARI)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "DK_MUSIC_Player"
     usar = user
     wew = usar.id
     try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{OWNER_USERNAME}...**")
+                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{DK143GURJAR}...**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{OWNER_USERNAME} ❤️...**")
+            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{Dk143gurjar} ❤️...**")
         return
     
     audio = (
@@ -249,9 +249,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
+                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐁𝐚𝐛𝐲 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
             )
-        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫🩸...**")
+        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫 𝐏𝐥𝐳 𝐖𝐚𝐢𝐭 𝐁𝐚𝐛𝐲🩸...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
