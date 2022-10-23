@@ -14,9 +14,9 @@
 - Python 3.8+ or 3.7
 
 
-🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
+🧪 ɢᴇᴛ OWNER_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[@venomstring_bot](https://t.me/venomstring_bot)
+[@OWNER](https://t.me/Dk143gurjar)
 
 
 
