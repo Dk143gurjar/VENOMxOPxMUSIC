@@ -1,4 +1,4 @@
-# DK MUSIC // @DK143GURJARA
+# DK MUSIC // @DK143GURJAR
 
 import os
 import aiofiles
